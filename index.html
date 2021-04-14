@@ -19,36 +19,28 @@
 
      <div class="app">
      <!--header-->
-     <header>
+      <header>
         <h1>MY TODO LIST</h1> 
-     </header>
+      </header>
      
      <!--Main-->
-     <main>
-         <input type="text" class="add-todo" placeholder="Scrivi il tuo contenuto qua">
+      <main>
+         <input 
+              type="text" 
+              class="add-todo" 
+              placeholder="Scrivi il tuo contenuto qua"
+            > 
 
-        <ul class="todos">
-            <li>
-               <span class="todos">Ciao belli</span>
-               <i class="fas fa-backspace"></i>
-            </li>
-            <li>
-                <span class="todos">CIAO</span>
-                <i class="fas fa-backspace"></i>
-             </li>
-             <li>
-                <span class="todos">Ciao</span>
-                <i class="fas fa-backspace"></i>
-             </li>
-        </ul>
-
-     </main>
-
-         
-
-
-     </div>
+         <!--statico per lo style-->
+          <ul class="todos"></ul>
+       </main>
+    </div>
     
+    <!--TEMPLETE-->
+    <div id="template" style="display: none;">
+        <span class="text"></span>
+        <i class="fas fa-backspace"></i>
+    </div>
 
 
     <!--JS / jQuery-->

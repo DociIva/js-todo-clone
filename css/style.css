@@ -6,9 +6,10 @@
 }
 
 body {
-    background: rgb(10, 111, 243);
-    color: lightcyan;
+    background:rgb(21, 113, 204);
+    color: white;
 }
+
 /*LAYOUT*/
 .app {
     max-width: 500px;
@@ -54,4 +55,7 @@ h1 {
 }
 .todos li i:hover {
     opacity: 1;
+}
+.todos li span.completed {
+    text-decoration: line-through;
 }
